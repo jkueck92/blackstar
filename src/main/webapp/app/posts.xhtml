@@ -1,0 +1,65 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Posts</ui:define>
+
+    <ui:define name="viewname">
+        <li>PAGES</li>
+        <li><i class="pi pi-chevron-right"></i></li>
+        <li>
+            <p:link outcome="/app/posts">Posts</p:link>
+        </li>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="form">
+            <div class="grid">
+                <div class="col">
+                    <div class="card">
+
+                        <p:toolbar styleClass="mb-4">
+                            <p:toolbarGroup align="right">
+                                <p:selectOneButton value="#{postsController.selectedFilter}" valueChangeListener="#{postsController.filter}">
+                                    <f:selectItem itemLabel="ALL" itemValue="ALL"/>
+                                    <f:selectItem itemLabel="NOT_APPROVED" itemValue="NOT_APPROVED"/>
+                                    <f:selectItem itemLabel="APPROVED" itemValue="APPROVED"/>
+                                    <f:selectItem itemLabel="PUBLISHED" itemValue="PUBLISHED"/>
+                                    <p:ajax event="change" update="datatablePosts"/>
+                                </p:selectOneButton>
+                            </p:toolbarGroup>
+                        </p:toolbar>
+
+                        <p:dataTable id="datatablePosts" var="post" value="#{postsController.posts}" rows="8" paginator="true" paginatorPosition="bottom">
+                            <p:column headerText="AlarmTimestamp">
+                                <h:outputText value="#{post.post.alarmTimestamp}"/>
+                            </p:column>
+                            <p:column headerText="Keyword">
+                                <h:outputText value="#{post.post.keyword}"/>
+                            </p:column>
+                            <p:column headerText="Titel">
+                                <h:outputText value="#{post.post.title}"/>
+                            </p:column>
+                            <p:column headerText="Location">
+                                <h:outputText value="#{post.post.location}"/>
+                            </p:column>
+                            <p:column headerText="Status">
+                                <h:outputText value="#{post.post.status}"/>
+                            </p:column>
+                            <p:column style="width:6rem;text-align: center">
+                                <p:linkButton rendered="#{menuController.checkPermission('POSTS_CHECK_POST')}" disabled="#{post.approvedButtonDisabled}" outcome="/app/checkPost" icon="pi pi-check-circle" style="margin-right: 5px;">
+                                    <f:param name="id" value="#{post.post.id}"/>
+                                </p:linkButton>
+                                <p:commandButton rendered="#{menuController.checkPermission('POSTS_UPLOAD')}" icon="pi pi-cloud-upload" disabled="#{post.publishButtonDisabled}" actionListener="#{postsController.publishPost(post)}"/>
+                            </p:column>
+                        </p:dataTable>
+                    </div>
+                </div>
+            </div>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

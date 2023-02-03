@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="blackstar:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ced1b84-2a7c-4a78-a71c-2f4e1c1070bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/domain/NewOperationInfoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/domain/TableOperationDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/domain/TablePostDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/HttpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/OperationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/service/WordpressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/ConfigurationBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/CustomAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/LogoutBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/Resources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/auth/TestIdentityStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/common/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/common/GuestPreferences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/common/JaxRsActivator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/common/Pages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/common/RestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/CheckPostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/CreatePostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/OperationsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/controller/auth/LoginBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/frontend/RainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/jkueck/web/frontend/RainMenuRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/breadcrumb.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/footer.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/menu.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/primefaces-rain.taglib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/rightpanel.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/topbar.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/checkPost.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/createPost.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/operations.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/posts.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/profile.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/settings.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/empty.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/help.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/chartjs/chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/_demo_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/demo-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/flags/flags.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/flags/flags_responsive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_blocks.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_chronoline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_crud.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_documentation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_floatlabel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_messages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_syntax.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/css/pages/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/amyelsner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/annafali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/asiyajavayant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/bernardodominic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/elwinsharvill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/ionibowcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/ivanmagalhaes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/onyamalimba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/stephenshaw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/avatar/xuxuefeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/blocks/hero/hero-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/blocks/logos/hyper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/asset-avatar-jordi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/asset-graph-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/asset-graph-72.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/asset-worldmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-message-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-message-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-message-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/avatar-message-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/effect-checkins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/effect-filessynced.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/effect-messages.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/effect-useronline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/graph-profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/icon-checkins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/icon-filessynced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/icon-messages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/icon-usersonline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-8.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/dashboard/minigraph-9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria10s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria11s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria12s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria13s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria14s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria15s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria1s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria2s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria3s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria4s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria5s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria6s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria7s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria8s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/galleria/galleria9s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/nature/nature9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/bamboo-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/black-watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/blue-band.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/blue-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/bracelet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/brown-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/chakra-bracelet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/galaxy-earrings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/game-controller.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/gaming-set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/gold-phone-case.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/green-earbuds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/green-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/grey-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/headphones.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/light-green-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/lime-band.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/mini-speakers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/painted-phone-case.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/pink-band.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/pink-purse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/purple-band.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/purple-gemstone-necklace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/purple-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/shoes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/sneakers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/teal-t-shirt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/yellow-earbuds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/yoga-mat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/images/product/yoga-set.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/demo/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primeblocks/blockViewer.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-amber-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-blue-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chambray-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-chateau-green-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-cyan-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-orange-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-paradiso-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-pink-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-tapestry-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-victoria-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-dark/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-dark/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-dim/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-dim/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-light/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-rain-wisteria-light/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-amber-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-blue-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chambray-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-chateau-green-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-cyan-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-orange-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-paradiso-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-pink-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-tapestry-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-victoria-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-dim.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/layout-wisteria-light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/primeflex-v2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/primeflex.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/css/primeicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/icons/primeicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/icons/primeicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/icons/primeicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/icons/primeicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/avatar-profilemenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo-rain-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo-rain-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo-rain-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/asset-404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/asset-access.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/asset-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/bg-header-404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/bg-header-access.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/bg-header-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/bg-header-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/help/rain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/asset-avatar-abbie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/asset-avatar-emmy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/asset-avatar-lucas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/asset-features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/asset-hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/avatar-profilemenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/effect-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/effect-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/effect-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/icon-cleancode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/icon-moderndesign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/icon-responsivelayouts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/icon-welldocumented.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/oval-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/oval-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/oval.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/rectangle-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/rectangle-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/images/pages/landing/rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/js/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/rain-layout/js/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_config.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_exception.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_help.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_invoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_landing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_rightpanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/_menu_horizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/_menu_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/_menu_slim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/_menu_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/themes/_menu_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/themes/_menu_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/menu/themes/_menu_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/_topbar_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/_topbar_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/themes/_topbar_colored.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/themes/_topbar_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/themes/_topbar_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/layout/topbar/themes/_topbar_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/mixins/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/overrides/_layout_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/overrides/_layout_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/overrides/_theme_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/overrides/_theme_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/_theme_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/_theme_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/_theme_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/button/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/button/_speeddial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/button/_splitbutton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_chronoline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_datagrid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_datalist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_datascroller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_dataview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_orderlist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_paginator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_picklist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_tagcloud.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_tree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/data/_treetable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/file/_fileupload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_cascadeselect.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_chips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_colorpicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_inplace.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_inputgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_inputswitch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_keypad.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_multiselectlistbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_password.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_radiobutton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_selectbooleancheckbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_selectcheckboxmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_selectonelistbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_selectonemenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_spinner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/input/_toggleswitch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/menu/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/menu/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/menu/_panelmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/menu/_steps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/menu/_tabmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/messages/_growl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/messages/_message.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/messages/_messages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_chip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_clock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_galleria.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_log.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_progressbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_scrolltop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_skeleton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_tag.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/misc/_terminal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_confirmpopup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_dialog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_overlaypanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/overlay/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_fieldset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_notificationbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_panelgrid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_scrollpanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_splitter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/theme/designer/components/panel/_wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_layout_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_layout_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_layout_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_theme_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_theme_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/sass/variables/_theme_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_config.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_exception.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_help.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_invoice.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_landing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_rightpanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_utils.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/_widgets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/_menu_horizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/_menu_overlay.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/_menu_slim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/_menu_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/themes/_menu_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/themes/_menu_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/menu/themes/_menu_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/_topbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/_topbar_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/_topbar_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/themes/_topbar_colored.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/themes/_topbar_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/themes/_topbar_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/layout/topbar/themes/_topbar_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/mixins/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/overrides/_layout_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/overrides/_layout_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/overrides/_theme_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/overrides/_theme_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/_theme_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/_theme_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/_theme_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/button/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/button/_speeddial.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/button/_splitbutton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_chronoline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_datagrid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_datalist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_datascroller.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_dataview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_orderlist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_paginator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_picklist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_tagcloud.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_tree.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/data/_treetable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/file/_fileupload.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_autocomplete.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_cascadeselect.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_chips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_colorpicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_datepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_inplace.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_input.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_inputgroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_inputswitch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_keypad.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_multiselectlistbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_password.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_radiobutton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_rating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_selectbooleancheckbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_selectcheckboxmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_selectonelistbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_selectonemenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_spinner.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/input/_toggleswitch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/menu/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/menu/_menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/menu/_panelmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/menu/_steps.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/menu/_tabmenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/messages/_growl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/messages/_message.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/messages/_messages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_avatar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_chip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_clock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_galleria.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_log.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_progressbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_scrolltop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_skeleton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_tag.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/misc/_terminal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_confirmpopup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_dialog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_lightbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_overlaypanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/overlay/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_fieldset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_notificationbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_panelgrid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_scrollpanel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_splitter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/theme/designer/components/panel/_wizard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_layout_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_layout_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_layout_light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_theme_dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_theme_dim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sass/variables/_theme_light.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Krv67OZ4dOAK2u4goJyCRIH0oF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jkueck/IdeaProjects/own/blackstar/src/main/webapp/error&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.jkueck" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp\error" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp\app" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\java\de\jkueck" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp\app" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp" />
+      <recent name="C:\Users\jkueck\IdeaProjects\own\blackstar\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.jkueck.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 26.1.2.Final">
+    <configuration name="JBoss/WildFly 26.1.2.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.1.2.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="blackstar:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55785" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="blackstar:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="blackstar" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8787" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8787" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JBoss/WildFly Server.JBoss/WildFly 26.1.2.Final" />
+      <item itemvalue="Remote JVM Debug.Unnamed" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ced1b84-2a7c-4a78-a71c-2f4e1c1070bc" name="Changes" comment="" />
+      <created>1674745338294</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674745338294</updated>
+      <workItem from="1674745339347" duration="6916000" />
+      <workItem from="1674814077696" duration="9154000" />
+      <workItem from="1674987811834" duration="9975000" />
+      <workItem from="1675086915472" duration="11321000" />
+      <workItem from="1675150244596" duration="5427000" />
+      <workItem from="1675161154561" duration="12641000" />
+      <workItem from="1675236902499" duration="8362000" />
+      <workItem from="1675271644914" duration="611000" />
+      <workItem from="1675276340936" duration="1966000" />
+      <workItem from="1675321605296" duration="6853000" />
+      <workItem from="1675358092107" duration="3393000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JBossConfiguration">
+        <watch expression="request.getRequestURI()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

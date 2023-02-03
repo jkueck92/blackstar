@@ -1,0 +1,53 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Check post</ui:define>
+
+    <ui:define name="viewname">
+        <li>PAGES</li>
+        <li><i class="pi pi-chevron-right"></i></li>
+        <li>
+            <p:link outcome="/app/posts">Posts</p:link>
+        </li>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="form">
+            <p:growl id="growl" showDetail="true"/>
+
+            <div class="grid">
+                <div class="col-6 md:col-6">
+                    <div class="card ui-fluid">
+
+                        <h5>Check post</h5>
+
+                        <div class="field">
+                            <p:outputLabel for="plkannedText">PlannedText</p:outputLabel>
+                            <p:inputTextarea id="plkannedText" rows="8" disabled="true"
+                                             value="#{checkPostController.post.text}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="correctionText">CorrectionText</p:outputLabel>
+                            <p:inputTextarea id="correctionText" rows="8"
+                                             value="#{checkPostController.checkPost.newText}"/>
+                        </div>
+
+                        <div class="flex flex-row-reverse flex-wrap">
+                            <div class="flex align-items-center justify-content-center">
+                                <p:commandButton icon="pi pi-chevron-left" value="Back" action="#{checkPostController.onClickBack}" style="margin-right: 5px;"/>
+                                <p:commandButton icon="pi pi-check" value="Approve" actionListener="#{checkPostController.approvePost}" update="growl" styleClass="ui-button-success"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </h:form>
+    </ui:define>
+
+</ui:composition>

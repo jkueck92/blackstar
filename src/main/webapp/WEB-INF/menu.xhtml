@@ -1,0 +1,51 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" 
+                xmlns:h="http://java.sun.com/jsf/html" 
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets" 
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:pr="http://primefaces.org/rain">
+
+<div class="menu-wrapper">
+    <div class="layout-menu-container">
+        <ui:fragment rendered="#{guestPreferences.profileMode == 'popup' ? false : true}">
+            <div class="layout-profile">
+                <a class="layout-profile-button" href="#">
+                    <span class="image-name">
+                        <p:graphicImage name="images/avatar-profilemenu.png" library="rain-layout" />
+                        <span class="layout-profile-userinfo">
+                            <span class="layout-profile-name">Max Mustermann</span>
+                            <span class="layout-profile-mail">jordi@primetek.com.tr</span>
+                        </span>
+                    </span>
+                    <i class="layout-profile-icon pi pi-chevron-down"/>
+                </a>
+                <ul class="layout-profile-menu">
+                    <li>
+                        <a href="#">
+                            <i class="pi pi-user"/>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="pi pi-cog"/>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </ui:fragment>
+        <h:form id="menuform">
+            <pr:menu widgetVar="RainMenuWidget">
+                <p:submenu id="m_homepage" label="MENU" icon="pi pi-home">
+                    <p:menuitem id="m_profile" value="Profile" icon="pi pi-home" outcome="/app/profile" rendered="#{menuController.checkPermission('MENU_PROFILE')}"/>
+                    <p:menuitem id="m_operations" value="Operations" icon="pi pi-home" outcome="/app/operations" rendered="#{menuController.checkPermission('MENU_OPERATIONS')}"/>
+                    <p:menuitem id="m_posts" value="Posts" icon="pi pi-home" outcome="/app/posts" rendered="#{menuController.checkPermission('MENU_POSTS')}"/>
+                    <p:menuitem id="m_settings" value="Settings" icon="pi pi-home" outcome="/app/settings" rendered="#{menuController.checkPermission('MENU_SETTINGS')}"/>
+                </p:submenu>
+            </pr:menu>
+        </h:form>
+    </div>
+</div>
+
+</ui:composition>

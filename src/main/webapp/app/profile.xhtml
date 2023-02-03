@@ -1,0 +1,56 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+             
+    <ui:define name="title">Profile</ui:define>
+
+    <ui:define name="viewname">
+        <li>PAGES</li>
+        <li><i class="pi pi-chevron-right"></i></li>
+        <li>
+            <p:link outcome="/app/profile">Profile</p:link>
+        </li>
+    </ui:define>
+    
+    <ui:define name="content">
+        <h:form id="form">
+            <div class="grid">
+                <div class="col-12 md:col-6">
+                    <div class="card ui-fluid">
+
+                        <h5>Your profile</h5>
+
+                        <div class="field">
+                            <p:outputLabel for="firstname">Firstname</p:outputLabel>
+                            <p:inputText id="firstname" value="#{profileController.user.firstname}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="lastname">Lastname</p:outputLabel>
+                            <p:inputText id="lastname" value="#{profileController.user.lastname}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="email">Email</p:outputLabel>
+                            <p:inputText id="email" value="#{profileController.user.email}"/>
+                        </div>
+
+                        <hr/>
+
+                        <div class="flex flex-row-reverse flex-wrap">
+                            <div class="flex align-items-center justify-content-center">
+                                <p:commandButton icon="pi pi-check" value="Save" styleClass="ui-button-success"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <p:commandButton value="LOGOUT" action="#{logoutBean.logout}"/>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

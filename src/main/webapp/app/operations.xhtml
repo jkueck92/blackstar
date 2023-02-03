@@ -1,0 +1,48 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+
+    <ui:define name="title">Operations</ui:define>
+
+    <ui:define name="viewname">
+        <li>PAGES</li>
+        <li><i class="pi pi-chevron-right"></i></li>
+        <li>
+            <p:link outcome="/app/operations">Operations</p:link>
+        </li>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:form id="form">
+            <div class="grid">
+                <div class="col">
+                    <div class="card">
+                        <p:dataTable id="datatableOperations" var="operation" value="#{operationsController.operations}" rows="8" paginator="true" paginatorPosition="bottom">
+                            <p:column headerText="Timestamp">
+                                <h:outputText value="#{operation.operation.timestamp}"/>
+                            </p:column>
+                            <p:column headerText="Keyword">
+                                <h:outputText value="#{operation.operation.keyword}"/>
+                            </p:column>
+                            <p:column headerText="KeywordText">
+                                <h:outputText value="#{operation.operation.keywordText}"/>
+                            </p:column>
+                            <p:column headerText="Location">
+                                <h:outputText value="#{operation.operation.location}"/>
+                            </p:column>
+                            <p:column style="width:6rem;text-align: center">
+                                <p:linkButton outcome="createPost" icon="pi pi-plus">
+                                    <f:param name="id" value="#{operation.operation.id}"/>
+                                </p:linkButton>
+                            </p:column>
+                        </p:dataTable>
+                    </div>
+                </div>
+            </div>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

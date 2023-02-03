@@ -1,0 +1,72 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+             
+    <ui:define name="title">Empty Page</ui:define>
+
+    <ui:define name="viewname">
+        <li>PAGES</li>
+        <li><i class="pi pi-chevron-right"></i></li>
+        <li>
+            <p:link outcome="/empty">EMPTY</p:link>
+        </li>
+    </ui:define>
+    
+    <ui:define name="content">
+        <h:form id="form">
+            <p:growl id="growl" showDetail="true"/>
+            <div class="grid">
+                <div class="col-12 md:col-6">
+                    <div class="card ui-fluid">
+
+                        <h5>Create post</h5>
+
+                        <div class="field">
+                            <p:outputLabel for="title">Title</p:outputLabel>
+                            <p:inputText id="title" value="#{createPostController.createPost.title}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="alarmTimestamp">AlarmTimestamp</p:outputLabel>
+                            <p:inputText id="alarmTimestamp" value="#{createPostController.createPost.alarmTimestamp}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="keyword">Keyword</p:outputLabel>
+                            <p:inputText id="keyword" value="#{createPostController.createPost.keyword}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="location">Location</p:outputLabel>
+                            <p:inputText id="location" value="#{createPostController.createPost.location}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="text">Text</p:outputLabel>
+                            <p:inputTextarea id="text" rows="8" value="#{createPostController.createPost.text}"/>
+                        </div>
+
+                        <div class="field">
+                            <p:outputLabel for="plannedReleaseAt">PlannedReleaseAt</p:outputLabel>
+                            <p:datePicker id="plannedReleaseAt" pattern="dd.MM.yyyy - HH:mm" value="#{createPostController.createPost.plannedReleaseAt}"/>
+                        </div>
+
+                        <hr/>
+
+                        <div class="flex flex-row-reverse flex-wrap">
+                            <div class="flex align-items-center justify-content-center">
+                                <p:commandButton icon="pi pi-chevron-left" value="Back" action="#{createPostController.onClickBack}" style="margin-right: 5px;"/>
+                                <p:commandButton icon="pi pi-check" value="Create" update="growl" actionListener="#{createPostController.actionOnClickSave}" styleClass="ui-button-success"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </h:form>
+    </ui:define>
+
+</ui:composition>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <f:facet name="first">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+    </f:facet>
+    <title>PrimeFaces Rain - Login</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</h:head>
+
+<h:body styleClass="login-body">
+    <h:form>
+        <div class="login-card">
+            <h1>RAIN<span>LOGIN</span></h1>
+            <span>Welcome, please use the form to sign-in <br/>Rain network</span>
+            <div class="form-group">
+                <span>Email</span>
+                <p:inputText value="#{loginBean.username}"/>
+            </div>
+            <div class="form-group">
+                <span>Password</span>
+                <p:password value="#{loginBean.password}"/>
+            </div>
+            <p:commandButton actionListener="#{loginBean.login}" value="Login"/>
+        </div>
+    </h:form>
+    <h:outputStylesheet name="css/#{guestPreferences.layout}.css" library="rain-layout"/>
+</h:body>
+
+</html>
